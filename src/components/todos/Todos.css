@@ -1,0 +1,85 @@
+.todos-wrapper {
+  text-align: center;
+  width: 40%;
+}
+
+.headline {
+  font-size: 8rem;
+  color: #d8d8d8;
+}
+
+form {
+  position: relative;
+}
+
+form input {
+  border-radius: 100px;
+  width: 100%;
+  border: none;
+  box-shadow: 0 1px 6px 0 rgb(0 0 0 / 38%);
+  padding: 1rem;
+}
+
+form input:focus {
+  outline: none;
+}
+
+.submit-btn {
+  position: absolute;
+  top: 50%;
+  right: 5%;
+  transform: translateY(-50%);
+  border-radius: 100px;
+  width: 1.5rem;
+  height: 1.5rem;
+  border: none;
+  background-color: #018888;
+  color: #fff;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem 0;
+  padding: 1rem 0;
+  border-bottom: 1px solid #d8d8d8;
+}
+
+.todo-task {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.delete-task {
+  background: none;
+  border: none;
+  width: 3rem;
+  height: 3rem;
+  background-color: #d8d8d8;
+  border-radius: 100px;
+  padding: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.delete-task:hover {
+  background-color: #aaaaaa;
+}
+
+.delete-task img {
+  width: 1.5rem;
+}
+
+.completed {
+  text-decoration: line-through;
+}
